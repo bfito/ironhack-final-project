@@ -21,6 +21,7 @@ const userSchema = new Schema({
     state: String,
     zipcode: Number,
   },
+  // role {}
 
 });
 
