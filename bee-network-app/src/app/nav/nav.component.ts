@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  radioModel: string = ''; //Radio -> only can be  'bee' or 'farm' 
+
   constructor() { }
 
   ngOnInit() {
