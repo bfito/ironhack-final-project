@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { NavComponent } from './nav/nav.component';
 import { MainComponent } from './main/main.component';
+import { AddListBoxComponent } from './main/add-list-box/add-list-box.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     NavComponent,
-    MainComponent
+    MainComponent,
+    AddListBoxComponent
   ],
   imports: [
     BrowserModule,
