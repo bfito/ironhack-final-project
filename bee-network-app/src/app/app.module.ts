@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { NavComponent } from './nav/nav.component';
 import { MainComponent } from './main/main.component';
 import { AddListBoxComponent } from './main/add-list-box/add-list-box.component';
+import { MaterialModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AddListBoxComponent } from './main/add-list-box/add-list-box.component'
     HttpModule,
     AppRoutingModule,
     ModalModule.forRoot(),
-    ButtonsModule
+    ButtonsModule,
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
