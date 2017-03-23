@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { ModalModule } from 'ng2-bootstrap/modal';
+import { ButtonsModule } from 'ng2-bootstrap/buttons';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,7 +26,9 @@ import { MaterialModule } from '@angular/material';
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    MaterialModule
+    ModalModule.forRoot(),
+    ButtonsModule,
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
